@@ -1,6 +1,5 @@
 import React from "react";
 import { Data } from "./data";
-import { TechStackData } from "./data";
 import styles from "./TechStack.module.scss";
 
 const TechStack: React.FC = () => {
@@ -20,4 +19,5 @@ const TechStack: React.FC = () => {
 };
 
 export default TechStack;
+
 
