@@ -3,10 +3,6 @@ import { Data } from "./data";
 import { TechStackData } from "./data";
 import styles from "./TechStack.module.scss";
 
-// interface StackProps {
-//   props: TechStackData;
-// }
-
 const TechStack: React.FC = () => {
   return (
     <div className={styles.container}>
@@ -24,3 +20,4 @@ const TechStack: React.FC = () => {
 };
 
 export default TechStack;
+
